@@ -1,0 +1,337 @@
+import time
+
+scoreall = 0
+
+def revision():
+    print('do you want to play a game')
+    time.sleep(1)
+    choice = int(input('choose the topic\nSystem architecture...1\nNetworks...2\n'))
+
+    if choice == 1:
+        system_arch()
+
+        
+    elif choice == 2:
+        networks(score)
+
+
+    elif choice == 69:
+        test()
+
+    
+    
+    else:
+        print ("sorry that doesn't work")
+        time.sleep(1)
+        revision()
+
+    
+
+def system_arch():
+
+    def multiple_choices_1():
+        answer = str('C')
+        print("What does CPU stand for?\n\n")
+        time.sleep(0.1)
+        print("A. Arithmetic Logic Unit \n")
+        time.sleep(0.1)
+        print("B. Random Access Memory \n")
+        time.sleep(0.1)
+        print("C. Central Processing Unit \n")
+        time.sleep(0.1)
+        print("D. Read Only Memory \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_1()
+
+    def multiple_choices_2():
+        answer = str('A')
+        print("What does ALU stand for?\n\n")
+        time.sleep(0.1)
+        print("A. Arithmetic Logic Unit \n")
+        time.sleep(0.1)
+        print("B. Random Access Memory \n")
+        time.sleep(0.1)
+        print("C. Central Processing Unit \n")
+        time.sleep(0.1)
+        print("D. Read Only Memory \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_2()
+
+    def multiple_choices_3():
+        answer = str('D')
+        print("What does ROM stand for?\n\n")
+        time.sleep(0.1)
+        print("A. Arithmetic Logic Unit \n")
+        time.sleep(0.1)
+        print("B. Random Access Memory \n")
+        time.sleep(0.1)
+        print("C. Central Processing Unit \n")
+        time.sleep(0.1)
+        print("D. Read Only Memory \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_3()
+
+    def multiple_choices_4():
+        answer = str('B')
+        print("What does RAM stand for?\n\n")
+        time.sleep(0.1)
+        print("A. Arithmetic Logic Unit \n")
+        time.sleep(0.1)
+        print("B. Random Access Memory \n")
+        time.sleep(0.1)
+        print("C. Central Processing Unit \n")
+        time.sleep(0.1)
+        print("D. Read Only Memory \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_4()
+
+    multiple_choices_1()
+    multiple_choices_2()
+    multiple_choices_3()
+    multiple_choices_4()
+
+
+def networks(score):
+
+    def open_1(score):
+        print('what does  stand for')
+        uranswer = input(">>>")
+        uranswer = uranswer.upper()
+        if uranswer == (''):
+            print("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            open_1
+        
+
+    def multiple_choices_1(score):
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_1(score)
+
+    def multiple_choices_2(score):
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_2(score)
+
+    def multiple_choices_3(score):
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_3()
+
+    def multiple_choices_4(score):
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print("Correct")
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_4()
+
+    multiple_choices_1(score)
+    multiple_choices_2(score)
+    open_1(score)
+    multiple_choices_3(score)
+    multiple_choices_4(score)
+
+    print(score)
+
+
+
+def test():
+    print('oh ok then')
+
+    
+    def multiple_choices_1(marks):
+        global scoreall
+        score = scoreall
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+            score = score + marks
+            return score
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_1(1)
+
+
+    def multiple_choices_2(marks):
+        global scoreall
+        score = scoreall
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+            score = score + marks
+            return score
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_2(1)
+
+    def multiple_choices_3(marks):
+        global scoreall
+        score = scoreall
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+            score = score + marks
+            return score
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_3(1)
+
+    def multiple_choices_4(marks):
+        global scoreall
+        score = scoreall
+        answer = str('')
+        print("What does  stand for?\n\n")
+        time.sleep(0.1)
+        print("A.  \n")
+        time.sleep(0.1)
+        print("B.  \n")
+        time.sleep(0.1)
+        print("C.  \n")
+        time.sleep(0.1)
+        print("D.  \n")
+        time.sleep(0.1)
+        usranswer = input(">>> ")
+        usranswer = usranswer.upper()
+        if usranswer == answer:
+            print ("Correct")
+            score = score + marks
+            return score
+        else:
+            print ("You are failing your GCSE's \n Try again")
+            multiple_choices_4(1)
+
+    
+
+    scoreall = multiple_choices_1(1)
+    print(scoreall)
+    scoreall = multiple_choices_2(1)
+    print(scoreall)
+    scoreall = multiple_choices_3(1)
+    print(scoreall)
+    scoreall = multiple_choices_4(1)
+    print(scoreall)
+        
+        
+        
+    
+
+revision()
